@@ -23,9 +23,9 @@ python embeddings.py \
 --model_path logs/owt \
 --model_mode oai \
 --tokenizer_type oai \
---dataset_path Dahoas/openwebtext_val \
+--dataset_path data/openwebtext/val.bin \
 --split validation \
---dataset_mode hf \
+--dataset_mode token \
 --context_len 1024 \
 --dataset_upper 4007 \
 --num_dataset_subsample 4000 \
